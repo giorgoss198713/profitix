@@ -1,0 +1,13 @@
+version: 2
+
+models:
+    - name: campaigns_v2_dbt
+      description: "campaigns v2"
+      config:
+          enabled: true
+          tags: campaigns_v2
+    - name: campaign_expenses_transformed_dbt
+      description: "campaign expenses transformed"
+      config:
+          enabled: true
+          tags: campaign_expenses_transformed

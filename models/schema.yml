@@ -121,3 +121,13 @@ models:
       config:
           enabled: true
           tags: admin_users_transformed_pfx
+    - name: first_approved_date_less_1k_pfx_dbt
+      description: new redepositors less 1k for pfx"
+      config:
+          enabled: true
+          tags: first_approved_date_less_1k_pfx
+    - name: first_approved_date_more_1k_pfx_dbt
+      description: new redepositors more 1k for pfx"
+      config:
+          enabled: true
+          tags: first_approved_date_more_1k_pfx

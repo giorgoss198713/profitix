@@ -1,13 +1,118 @@
 version: 2
 
 models:
-    - name: campaigns_v2_dbt
-      description: "campaigns v2"
+    - name: psp_brand_pfx_dbt
+      description: "psp brand for pfx"
       config:
           enabled: true
-          tags: campaigns_v2
-    - name: campaign_expenses_transformed_dbt
-      description: "campaign expenses transformed"
+          tags: psp_brand_pfx
+    - name: campaign_brand_pfx_dbt
+      description: "campaign brand for pfx"
       config:
           enabled: true
-          tags: campaign_expenses_transformed
+          tags: campaign_brand_pfx
+    - name: clients_with_brand_pfx_dbt
+      description: "clients table for pfx"
+      config:
+          enabled: true
+          tags: clients_with_brand_pfx
+    - name: sales_transactions_transformed_pfx_dbt
+      description: "sales transactions table for pfx"
+      config:
+          enabled: true
+          tags: sales_transactions_transformed_pfx
+    - name: transactions_with_brand_final_pfx_dbt
+      description: transactions with brand final for pfx"
+      config:
+          enabled: true
+          tags: transactions_withbrand_final_pfx
+    - name: transactions_with_brand_pfx_dbt
+      description: transactions with brand for pfx"
+      config:
+          enabled: true
+          tags: transactions_with_brand_pfx
+    - name: agent_name_ftd_pfx_dbt
+      description: ftd agent name for pfx"
+      config:
+          enabled: true
+          tags: agent_name_ftd_pfx
+    - name: agent_name_final_pfx_dbt
+      description: final agent name for pfx"
+      config:
+          enabled: true
+          tags: agent_name_final_pfx
+    - name: first_approved_date_pfx_dbt
+      description: first redeposit for pfx"
+      config:
+          enabled: true
+          tags: first_approved_date_pfx
+    - name: first_approved_date_updated_pfx_dbt
+      description: first redeposit updated for pfx"
+      config:
+          enabled: true
+          tags: first_approved_date_updated_pfx
+    - name: conversion_rate_denominator_pfx_dbt
+      description: conversion rate denominator for pfx"
+      config:
+          enabled: true
+          tags: conversion_rate_denominator_pfx
+    - name: conversion_rate_denominator_updated_pfx_dbt
+      description: conversion rate denominator updated for pfx"
+      config:
+          enabled: true
+          tags: conversion_rate_denominator_updated_pfx
+    - name: pv_numerator_pfx_dbt
+      description: pv numerator for pfx"
+      config:
+          enabled: true
+          tags: pv_numerator_pfx
+    - name: ftd_deposits_pfx_dbt
+      description: ftd deposits for pfx"
+      config:
+          enabled: true
+          tags: ftd_deposits_pfx
+    - name: non_ftd_deposits_pfx_dbt
+      description: non ftd deposits for pfx"
+      config:
+          enabled: true
+          tags: non_ftd_deposits_pfx
+    - name: non_ftd_withdrawals_pfx_dbt
+      description: non ftd withdrawals for pfx"
+      config:
+          enabled: true
+          tags: non_ftd_withdrawals_pfx
+    - name: non_ftd_transactions_pfx_dbt
+      description: non ftd transactions for pfx"
+      config:
+          enabled: true
+          tags: non_ftd_transactions_pfx
+    - name: summary_table_pfx_dbt
+      description: summary table for pfx"
+      config:
+          enabled: true
+          tags: summary_table_pfx
+    - name: summary_agent_pfx_dbt
+      description: summary agent for pfx"
+      config:
+          enabled: true
+          tags: summary_agent_pfx
+    - name: ftd_deposits_buckets_pfx_dbt
+      description: ftd deposit buckets for pfx"
+      config:
+          enabled: true
+          tags: ftd_deposits_buckets_pfx
+    - name: campaign_table_pfx_dbt
+      description: campaign table for pfx"
+      config:
+          enabled: true
+          tags: campaign_table_pfx
+    - name: first_approved_date_less_1k_updated_pfx_dbt
+      description: new redepositors less 1k for pfx"
+      config:
+          enabled: true
+          tags: first_approved_date_less_1k_updated_pfx
+    - name: first_approved_date_more_1k_updated_pfx_dbt
+      description: new redepositors more 1k for pfx"
+      config:
+          enabled: true
+          tags: first_approved_date_more_1k_updated_pfx

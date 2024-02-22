@@ -116,3 +116,8 @@ models:
       config:
           enabled: true
           tags: first_approved_date_more_1k_updated_pfx
+    - name: admin_users_transformed_pfx_dbt
+      description: admin users for pfx"
+      config:
+          enabled: true
+          tags: admin_users_transformed_pfx
